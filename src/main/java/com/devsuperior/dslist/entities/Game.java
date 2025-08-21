@@ -25,7 +25,7 @@ public class Game {
     @Column(columnDefinition = "TEXT")
     private String longDescription;
 
-    public Game () {}
+    public Game() {}
 
     public Game(String longDescription, String shortDescription, String imgUrl, String platforms, Double score, String genre, Integer year, String title, Long id) {
         this.longDescription = longDescription;
